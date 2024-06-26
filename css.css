@@ -1,0 +1,249 @@
+/* скидую стилі */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+/* visually hidden */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  outline: 0;
+  outline-offset: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.container {
+  width: 1230px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin: 0 auto;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.logo-hero {
+  display: block;
+  margin-bottom: 60px;
+}
+/* .hero {
+  background-image: url("./img/gus.webp");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: linear-gradient(
+    90deg,
+    rgb(211, 232, 255) 0.119%,
+    rgb(165, 222, 255) 99.891%
+  );
+  padding-top: 20px;
+  padding-bottom: 120px;
+} */
+.hero {
+  background-image: url("./img/gus.webp"),
+    linear-gradient(
+      90deg,
+      rgb(211, 232, 255) 0.119%,
+      rgb(165, 222, 255) 99.891%
+    );
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 20px;
+  padding-bottom: 120px;
+}
+.div-mainInfo {
+  width: 570px;
+  display: block;
+  padding: 60px 0px;
+  padding-left: 50px;
+  border-radius: 30px;
+  background: rgb(255, 255, 255);
+}
+.mainInfo-greetings {
+  color: rgb(27, 29, 31);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 60px;
+}
+.mainInfo-header {
+  color: rgb(27, 29, 31);
+  font-family: "Montserrat", sans-serif;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 25px;
+}
+.mainInfo-text {
+  color: rgb(27, 29, 31);
+  font-family: "Montserrat", sans-serif;
+  width: 440px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.mainInfo-button {
+  cursor: pointer;
+  border-radius: 8px;
+  background: rgba(255, 107, 10, 0.73);
+  padding: 10px 24px;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  transition-property: background;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition-duration: 2s;
+}
+.mainInfo-button:hover {
+  background: orange;
+}
