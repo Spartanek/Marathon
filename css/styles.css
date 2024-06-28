@@ -17,6 +17,7 @@ body {
   box-sizing: border-box;
 }
 .wrapper {
+  position: relative;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -67,7 +68,173 @@ body {
   outline: none;
   border: none;
 }
-.logo {
+.goit-logo {
+  position: absolute;
+  top: 32px;
+  left: 0;
   margin-bottom: 60px;
-  margin-top: 20px;
+}
+.facts-title {
+  color: rgb(27, 29, 31);
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+.facts {
+  padding-top: 48px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+.facts-tryzub {
+  margin-bottom: 24px;
+}
+.facts-descr {
+  color: rgb(27, 29, 31);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 772px;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 24px;
+}
+.facts-item-title {
+  color: rgb(27, 29, 31);
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 32px;
+  margin-top: 0px;
+}
+.facts-item-descr {
+  color: rgb(27, 29, 31);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.facts-item {
+  width: calc((100% / 3)- (24px * 2) / 3);
+}
+.form-container {
+  background: linear-gradient(
+    90deg,
+    rgb(211, 232, 255) 0.116%,
+    rgb(165, 222, 255) 99.893%
+  );
+  width: 100%;
+  padding-bottom: 80px;
+  padding-top: 80px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  background: #fff;
+  border-radius: 40px;
+  padding-top: 32px;
+  padding-right: 60px;
+  padding-bottom: 60px;
+  padding-left: 60px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.form-tryzub {
+  margin-bottom: 32px;
+}
+.form-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  color: #1b1d1f;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.form-descr {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #1b1d1f;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+.form-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.form-field-label {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  margin-bottom: 8px;
+}
+.form-field-name {
+  margin-bottom: 24px;
+}
+.form-input {
+  border: 1px solid rgb(0, 91, 187);
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #1b1d1f;
+  width: 100%;
+  padding-left: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 24px;
+  box-sizing: border-box;
+}
+.form-btn {
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-left: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 24px;
+  letter-spacing: 0%;
+  border-radius: 8px;
+  background: rgba(255, 107, 10, 0.73);
+  text-align: left;
+  border: none;
+}
+.form-field-email {
+  margin-bottom: 48px;
+}
+.gus-anim {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 100%;
+  z-index: 2;
+  pointer-events: none;
 }
